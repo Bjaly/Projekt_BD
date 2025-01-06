@@ -1,1 +1,4 @@
-
+CREATE TABLE klienci (
+  id INT AUTO INCREMENT,
+imie VARCHAR(30)
+  
