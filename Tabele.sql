@@ -1,3 +1,4 @@
+-- Tworzenie bazy danych
 CREATE DATABASE hurtownia_fit;
 --- Tworzenie tabeli Klienci
 CREATE TABLE klienci (
