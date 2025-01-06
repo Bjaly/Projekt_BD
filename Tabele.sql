@@ -10,3 +10,10 @@ CREATE TABLE klienci (
     data_rejestracji DATE NOT NULL DEFAULT(CURRENT_DATE),
     id_adres VARCHAR(5) NOT NULL COMMENT 'Klucz obcy'
 );
+-- Tworzenie tabeli adresy
+CREATE TABLE adresy(
+    id VARCHAR(3) PRIMARY KEY,
+    miasto VARCHAR(30) NOT NULL,
+    ulica VARCHAR(50) NOT NULL,
+    kod_pocztowy CHAR(6) NOT NULL CHECK (kod_pocztowy REGEXP '^[0-9]{2}-[0-9]{3}$'),
+    numer_mieszkania INT NOT NULL);
