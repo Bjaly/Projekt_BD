@@ -25,3 +25,10 @@ CREATE TABLE opinie(
     tresc TEXT,
     data_opinii DATE NOT NULL,
     ocena INT NOT NULL);
+-- Tworzenie tabeli produkty
+CREATE TABLE produkty(
+    kod_produktu CHAR(4) PRIMARY KEY,
+    cena_zakupu DECIMAL(5,2) NOT NULL,
+    nazwa_produktu VARCHAR(40) NOT NULL UNIQUE,
+    cena_sprzedazy DECIMAL(5,2) NOT NULL,
+    marza DECIMAL(5,2) NOT NULL);
