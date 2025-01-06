@@ -1,2 +1,3 @@
-# Projekt_BD
-Projekt na bazy danych 2204
+# Projekt Baza Danych Hurtownia Fitness
+Projekt został zrobiony w języku programowania MYSQl 8.0
+Wykorzystane narzędzia: RDMS- DBeaver
