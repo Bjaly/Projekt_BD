@@ -38,3 +38,9 @@ CREATE TABLE sprzedaze(
     id_klienta VARCHAR(3) NOT NULL,
     data DATE NOT NULL,
     id_platnosci VARCHAR(5) NOT NULL UNIQUE)
+-- Tworzenie tabeli szczegoly_sprzedanych_pozycji
+CREATE TABLE szczegoly_sprzedanych_pozycji(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    kod_produktu CHAR(4) NOT NULL,
+    liczba_pozycji INT NOT NULL,
+    id_sprzedazy INT NOT NULL);
