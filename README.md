@@ -11,7 +11,11 @@ Baza danych zawiera dane sprzedażowe przykładowej hurtowni fitness. Baza zawie
 #### Dostęp do bazy
  Aby połączyć się z bazą potrzebujemy programu do obsługi relacyjnych baz danych np. Visual Studio Code, Dbeaver, bądź  MySQL Workbench.  
   ##### Dane Logowania do logowania
-   * Server Host:    [Kliknij Aby Skopiować](projekt-bd.cdosuwi2amoa.eu-north-1.rds.amazonaws.com) 
+   * Server Host:   projekt-bd.cdosuwi2amoa.eu-north-1.rds.amazonaws.com
+   * Port: 3306
+   * Database: hurtownia_fit
+   * Username: gosc
+   * Password: ?
 #### Autorzy
  * Maciej Trybulski, S200004
  * Dawid Zariczny, S199976
