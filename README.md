@@ -8,7 +8,7 @@ Baza danych zawiera dane sprzedażowe przykładowej hurtowni fitness. Baza zawie
   * RDMS - DBeaver    
   * Generowanie danych - ChatGPT4o
   * Raporty - Tableau
-  * Tworzenie diagramów erd - dbdiagram.io
+  * Tworzenie diagramów ERD - dbdiagram.io
 
 #### Dostęp do bazy:
  Aby połączyć się z bazą potrzebujemy programu do obsługi relacyjnych baz danych np. Visual Studio Code, Dbeaver, bądź  MySQL Workbench.  
