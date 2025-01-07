@@ -6,4 +6,8 @@ Baza danych zawiera dane sprzedażowe przykładowej hurtowni fitness
   * Hosting - Amazon Web Services RDS
   * RDMS - DBeaver    
   * Generowanie danych - ChatGPT4o
-  * Raporty - Tablau 
+  * Raporty - Tablau
+
+#### Autorzy
+ * Maciej Trybulski, S200004
+ * Dawid Zariczny, S199976
