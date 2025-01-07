@@ -15,7 +15,7 @@ Baza danych zawiera dane sprzedażowe przykładowej hurtowni fitness. Baza zawie
    * Port: 3306
    * Database: hurtownia_fit
    * Username: gosc
-   * Password: ?
+   * Password: gosc123
 #### Autorzy
  * Maciej Trybulski, S200004
  * Dawid Zariczny, S199976
