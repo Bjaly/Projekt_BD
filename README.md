@@ -1,5 +1,5 @@
 # Projekt Baza Danych Hurtownia Fitness
-Baza danych zawiera dane sprzedażowe przykładowej hurtowni fitness. Baza zawiera 7 tabel: klienci, opinie, produkty, sprzedaże, płatności, adresy i szczegóły_sprzedanych_pozycji
+Baza danych zawiera dane sprzedażowe przykładowej hurtowni fitness. Baza zawiera 7 tabel: klienci, opinie, produkty, sprzedaże, płatności, adresy i szczegóły_sprzedanych_pozycji.
 
 #### Wykorzystane narzędzia:
   * MySQL 8.0
