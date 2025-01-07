@@ -32,3 +32,9 @@ CREATE TABLE produkty(
     nazwa_produktu VARCHAR(40) NOT NULL UNIQUE,
     cena_sprzedazy DECIMAL(5,2) NOT NULL,
     marza DECIMAL(5,2) NOT NULL);
+-- Tworzenia tabeli sprzedaze
+CREATE TABLE sprzedaze(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    id_klienta VARCHAR(3) NOT NULL,
+    data DATE NOT NULL,
+    id_platnosci VARCHAR(5) NOT NULL UNIQUE)
