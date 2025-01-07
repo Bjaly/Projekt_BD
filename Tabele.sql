@@ -48,4 +48,4 @@ CREATE TABLE szczegoly_sprzedanych_pozycji(
 CREATE TABLE platnosci(
     id VARCHAR(5) PRIMARY KEY,
     metoda VARCHAR(10) NOT NULL,
-    kwota DECIMAL(6,2) NOT NULL;)
+    kwota DECIMAL(6,2) NOT NULL);
