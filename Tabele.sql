@@ -57,7 +57,7 @@ ALTER TABLE klienci
 ADD CONSTRAINT fk_adresy_klienci FOREIGN KEY (id_adres)
 REFERENCES adresy(id)
 ON DELETE RESTRICT -- Aby nie dało się usunąć adresów z tabeli adres
-ON UPDATE CASCADE;
+ON UPDATE RESTRICT;
 -- Tworzenie relacji klienci -> opinie
 ALTER TABLE opinie
 ADD CONSTRAINT fk_opinie_klienci FOREIGN KEY(id_klienta)
