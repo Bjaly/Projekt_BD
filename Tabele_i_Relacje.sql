@@ -94,3 +94,12 @@ ADD CONSTRAINT fk_sprzedaze_klienci FOREIGN KEY(id_klienta)
 REFERENCES klienci(id)
 ON DELETE CASCADE
 ON UPDATE RESTRICT;
+-- Dodanie rekordow do pola kwota w tabeli platnosc  
+UPDATE platnosci AS pl
+SET kwota = (
+    SELECT SUM(ss.liczba_pozycji * p.cena_sprzedazy)
+    FROM szczegoly_sprzedanych_pozycji AS ss
+    INNER JOIN sprzedaze AS s ON ss.id_sprzedazy = s.id
+    INNER JOIN produkty AS p ON ss.kod_produktu = p.kod_produktu
+    WHERE s.id_platnosci = pl.id
+);
