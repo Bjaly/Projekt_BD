@@ -64,3 +64,9 @@ ADD CONSTRAINT fk_opinie_klienci FOREIGN KEY(id_klienta)
 REFERENCES klienci(id)
 ON DELETE CASCADE
 ON UPDATE RESTRICT;
+-- Tworzenie relacji opinie -> produkty
+ALTER TABLE opinie
+ADD CONSTRAINT fk_opinie_PRODUKTY FOREIGN KEY(id_produktu)
+REFERENCES produkty(kod_produktu)
+ON DELETE CASCADE
+ON UPDATE RESTRICT;
