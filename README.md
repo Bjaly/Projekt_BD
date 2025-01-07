@@ -8,7 +8,7 @@ Baza danych zawiera dane sprzedażowe przykładowej hurtowni fitness. Baza zawie
   * Generowanie danych - ChatGPT4o
   * Raporty - Tableau
 
-#### Dostęp do bazy
+#### Dostęp do bazy:
  Aby połączyć się z bazą potrzebujemy programu do obsługi relacyjnych baz danych np. Visual Studio Code, Dbeaver, bądź  MySQL Workbench.  
   ##### Dane Logowania do logowania
    * Server Host:   projekt-bd.cdosuwi2amoa.eu-north-1.rds.amazonaws.com
