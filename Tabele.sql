@@ -49,3 +49,13 @@ CREATE TABLE platnosci(
     id VARCHAR(5) PRIMARY KEY,
     metoda VARCHAR(10) NOT NULL,
     kwota DECIMAL(6,2) NOT NULL);
+-- 
+-- Tworzenie Relacji
+-- 
+-- Tworzenie relacji Klienci - Adresy
+ALTER TABLE klienci 
+ADD CONSTRAINT fk_adresy_klienci FOREIGN KEY (id_adres)
+REFERENCES adresy(id)
+ON DELETE RESTRICT -- Aby nie dało się usunąć adresów z tabeli adres
+ON UPDATE CASCADE;
+
