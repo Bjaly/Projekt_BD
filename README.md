@@ -6,11 +6,12 @@ Baza danych zawiera dane sprzedażowe przykładowej hurtowni fitness. Baza zawie
   * Hosting - Amazon Web Services RDS
   * RDMS - DBeaver    
   * Generowanie danych - ChatGPT4o
-  * Raporty - Tablau
+  * Raporty - Tableau
 
 #### Dostęp do bazy
- Aby połączyć się z bazą potrzebujemy programu do obsługi relacyjnych baz danych np. Visual Studio Code, Dbeaver MySQL Workbench.  
-
+ Aby połączyć się z bazą potrzebujemy programu do obsługi relacyjnych baz danych np. Visual Studio Code, Dbeaver, bądź  MySQL Workbench.  
+  ##### Dane Logowania do logowania
+   * Server Host:    [Kliknij Aby Skopiować](projekt-bd.cdosuwi2amoa.eu-north-1.rds.amazonaws.com) 
 #### Autorzy
  * Maciej Trybulski, S200004
  * Dawid Zariczny, S199976
