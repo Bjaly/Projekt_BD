@@ -15,7 +15,7 @@ CREATE TABLE adresy(
     id VARCHAR(3) PRIMARY KEY,
     miasto VARCHAR(30) NOT NULL,
     ulica VARCHAR(50) NOT NULL,
-    kod_pocztowy CHAR(6) NOT NULL CHECK (kod_pocztowy REGEXP '^[0-9]{2}-[0-9]{3}$'),
+    kod_pocztowy CHAR(6) NOT NULL CHECK (kod_pocztowy REGEXP '^[0-9]{2}-[0-9]{3}$'), --Spradzenie czy dane są kodem pocztowym
     numer_mieszkania INT NOT NULL);
 -- Tworzenie tabeli opinie
 CREATE TABLE opinie(
@@ -44,3 +44,8 @@ CREATE TABLE szczegoly_sprzedanych_pozycji(
     kod_produktu CHAR(4) NOT NULL,
     liczba_pozycji INT NOT NULL,
     id_sprzedazy INT NOT NULL);
+-- Tworzenie tabeli platnosci
+CREATE TABLE platnosci(
+    id VARCHAR(5) PRIMARY KEY,
+    metoda VARCHAR(10) NOT NULL,
+    kwota DECIMAL(6,2) NOT NULL;)
