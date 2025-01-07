@@ -76,3 +76,9 @@ ADD CONSTRAINT fk_pozycje_produkty FOREIGN KEY(kod_produktu)
 REFERENCES produkty(kod_produktu)
 ON DELETE CASCADE
 ON UPDATE RESTRICT;
+-- Tworzenie relacji sprzedaze -> szczegoly_sprzedanych_pozycji
+ALTER TABLE szczegoly_sprzedanych_pozycji
+ADD CONSTRAINT fk_pozycje_sprzedaze FOREIGN KEY(id_sprzedazy)
+REFERENCES sprzedaze(id)
+ON DELETE CASCADE
+ON UPDATE RESTRICT;
