@@ -82,3 +82,9 @@ ADD CONSTRAINT fk_pozycje_sprzedaze FOREIGN KEY(id_sprzedazy)
 REFERENCES sprzedaze(id)
 ON DELETE CASCADE
 ON UPDATE RESTRICT;
+-- Tworzenie relacji sprzedaze -> platnosci
+ALTER TABLE sprzedaze
+ADD CONSTRAINT fk_sprzedaze_platnosci FOREIGN KEY(id_platnosci)
+REFERENCES platnosci(id)
+ON DELETE CASCADE
+ON UPDATE RESTRICT;
