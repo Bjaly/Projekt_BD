@@ -9,6 +9,7 @@ Baza danych zawiera dane sprzedażowe przykładowej hurtowni fitness. Baza zawie
   * Generowanie danych - ChatGPT4o
   * Raporty - Tableau
   * Tworzenie diagramów ERD - dbdiagram.io
+  * Tworzenie formularzy - ReTool
 
 #### Dostęp do bazy:
  Aby połączyć się z bazą potrzebujemy programu do obsługi relacyjnych baz danych np. Visual Studio Code, Dbeaver, bądź  MySQL Workbench.  
@@ -18,6 +19,10 @@ Baza danych zawiera dane sprzedażowe przykładowej hurtowni fitness. Baza zawie
    * Database: hurtownia_fit
    * Username: gosc
    * Password: gosc123
+
+#### Kwerendy 
+Kwerendy po połączeniu z bazą są widoczne jako views, aby samodzielnie sprawdzić działanie kwerendy wystarczy skopiować kod plików z kwerendami usuwając funkcje CREATE VIEWA __ AS i nawiasy na początku i końcu,
+
 #### Autorzy
  * Maciej Trybulski, S200004
  * Dawid Zariczny, S199976
