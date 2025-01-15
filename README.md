@@ -20,7 +20,7 @@ Baza danych zawiera dane sprzedażowe przykładowej hurtowni fitness. Baza zawie
    * Username: gosc
    * Password: gosc123
 
-#### Kwerendy 
+#### Kwerendy:
 Kwerendy po połączeniu z bazą są widoczne jako views, aby samodzielnie sprawdzić działanie kwerendy wystarczy skopiować kod plików z kwerendami usuwając funkcje CREATE VIEW __ AS i nawiasy na początku i końcu,
 
 #### Autorzy
