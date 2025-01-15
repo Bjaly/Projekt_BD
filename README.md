@@ -21,7 +21,10 @@ Baza danych zawiera dane sprzedażowe przykładowej hurtowni fitness. Baza zawie
    * Password: gosc123
 
 #### Kwerendy:
-Kwerendy po połączeniu z bazą są widoczne jako views, aby samodzielnie sprawdzić działanie kwerendy wystarczy skopiować kod plików z kwerendami usuwając funkcje CREATE VIEW __ AS i nawiasy na początku i końcu,
+Kwerendy po połączeniu z bazą są widoczne jako views, aby samodzielnie sprawdzić działanie kwerendy wystarczy skopiować kod plików z kwerendami usuwając funkcje CREATE VIEW __ AS i nawiasy na początku i końcu.
+
+#### Raporty:
+Raporty zostały zrobione w Tableau. Są dostępne jako plik w repozytorium, również  zostały osadzone w stronie z formularzami. Jeśli chodzi o stronę z formularzami raporty mogą być nie do końca czytelne. Ważne aby ustawić przeglądanie raportu w wersji desktopowej.
 
 #### Autorzy
  * Maciej Trybulski, S200004
