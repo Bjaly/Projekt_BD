@@ -1,3 +1,5 @@
+-- Kwerenda sprawdza czy dany klient wystwaił opinie i porównuje średnią jego koszyka z średnią globalną 
+CREATE VIEW roznica_a_opinia AS (
 WITH srednia_klientow AS (
 SELECT k.imie,k.nazwisko,k.id, AVG(p.kwota) as srednia
 FROM klienci AS k
@@ -16,4 +18,5 @@ ON k.id = op.id_klienta
 INNER JOIN srednia_klientow
 ON k.id  = srednia_klientow.id
 ORDER BY srednia_klientow.srednia - (SELECT AVG(kwota) FROM platnosci) DESC
+)
 ;
