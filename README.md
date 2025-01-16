@@ -27,6 +27,9 @@ Kwerenda aktualizująca została przetestowana na kopii dwóch tabel.
 #### Raporty:
 Raporty zostały zrobione w Tableau. Są dostępne jako plik w repozytorium, również  zostały osadzone w stronie z formularzami. Jeśli chodzi o stronę z formularzami raporty mogą być nie do końca czytelne. Ważne aby ustawić przeglądanie raportu w wersji desktopowej.
 
+#### Formularze 
+Formularze zostały zrobione w low code'wym programie ReTool.
+
 #### Autorzy
  * Maciej Trybulski, S200004
  * Dawid Zariczny, S199976
