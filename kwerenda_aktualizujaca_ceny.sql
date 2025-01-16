@@ -1,6 +1,5 @@
-UPDATE
-SET 
-	cena_sprzedazy = cena_sprzedazy * 0.95,
+UPDATE produkty
+SET cena_sprzedazy = cena_sprzedazy * 0.95,
 	marza = (cena_sprzedazy * 0.95) - cena_zakupu
 
 FROM produkty as p 
