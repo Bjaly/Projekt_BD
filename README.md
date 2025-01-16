@@ -11,14 +11,7 @@ Baza danych zawiera dane sprzedażowe przykładowej hurtowni fitness. Baza zawie
   * Tworzenie diagramów ERD - dbdiagram.io
   * Tworzenie formularzy - ReTool
 
-#### Dostęp do bazy:
- Aby połączyć się z bazą potrzebujemy programu do obsługi relacyjnych baz danych np. Visual Studio Code, Dbeaver, bądź  MySQL Workbench.  
-  ##### Dane do logowania:
-   * Server Host:   projekt-bd.cdosuwi2amoa.eu-north-1.rds.amazonaws.com
-   * Port: 3306
-   * Database: hurtownia_fit
-   * Username: gosc
-   * Password: gosc123
+
 
 #### Kwerendy:
 Kwerendy po połączeniu z bazą są widoczne jako views, aby samodzielnie sprawdzić działanie kwerendy wystarczy skopiować kod plików z kwerendami usuwając funkcje CREATE VIEW __ AS i nawiasy na początku i końcu.
