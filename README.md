@@ -12,16 +12,15 @@ Baza danych zawiera dane sprzedażowe przykładowej hurtowni fitness. Baza zawie
   * Tworzenie formularzy - ReTool
 
 
-
 #### Kwerendy:
 Kwerendy po połączeniu z bazą są widoczne jako views, aby samodzielnie sprawdzić działanie kwerendy wystarczy skopiować kod plików z kwerendami usuwając funkcje CREATE VIEW __ AS i nawiasy na początku i końcu.
-Kwerenda aktualizująca została przetestowana na kopii dwóch tabel.
+Kwerenda aktualizująca została przetestowana na kopii dwóch tabel. Aby sprawdzić jej działanie wystarczy ją wkleić.
 
 #### Raporty:
 Raporty zostały zrobione w Tableau. Są dostępne jako plik w repozytorium, również  zostały osadzone w stronie z formularzami. Jeśli chodzi o stronę z formularzami raporty mogą być nie do końca czytelne. Ważne aby ustawić przeglądanie raportu w wersji desktopowej.
 
 #### Formularze 
-Formularze zostały zrobione w low code'wym programie ReTool.
+Formularze zostały zrobione w low code'wym programie ReTool. 
 
 #### Autorzy
  * Maciej Trybulski, S200004
